@@ -1,0 +1,83 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+header{
+  margin: auto 0px;
+  margin-bottom: 2%;
+  padding-left: 3%;
+}
+#table{
+  padding-bottom: 5%;
+  padding-left: 3%;
+}
+.tableTitle h3{
+  font-family: 'Work Sans', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tableTitle h5 {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.tableTitle {
+  padding: 5px 0px;
+}
+header h1, header h5{
+  font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+}
+
+.piece h5, .piece h4{
+  margin: 5px 0px 0px 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* how to exculde certain p tags? */
+#writing{
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+#writing h3, #writing h5 {
+  margin: 0;
+}
+.piece p{
+  font-family: 'Lato', sans-serif;
+  width: 50%;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 3px 0px 0px 0px;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0074D9;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.smaller {
+  font-size: 10px;
+}
