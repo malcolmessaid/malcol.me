@@ -5,13 +5,29 @@
     <link rel="stylesheet" type="text/css" href="mainstyle.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300|Work+Sans" rel="stylesheet">
     <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <title>Malcolm Essaid</title>
   </head>
   <body>
     <header>
-      <h1><a href="Resume.html">M.</a> <a href="https://github.com/malcolmessaid">Malcolm</a> <a href="Writings.html">Essaid</a></h1>
-      <h3>Phillips Academy Class of 2018</h3>
-      <h3>University of Chicago Class of 2022</h3>
+      <h1><a id='M' href="./resume">M.</a> <a href="https://github.com/malcolmessaid">Malcolm</a> <a href="./writings">Essaid</a></h1>
+      <h3>Phillips Academy &rsquo;18</h3>
+      <h3>University of Chicago &rsquo;22</h3>
     </header>
   </body>
+  <script type="text/javascript">
+    d3.select('#M').on('mouseover',function(){
+      d3.select("#M")
+      .transition()
+      .duration(1)
+      .text("Mahmoud")
+    })
+    d3.select('#M').on('mouseout',function(){
+      d3.select("#M")
+      .transition()
+      .duration(1000)
+      .text("M.")
+    })
+
+  </script>
 </html>
