@@ -1,3 +1,3 @@
-# malcolmessaid.com
+# malcol.me
 
-A proprietary website for Mahmoud Malcolm Essaid. 
+A personal website for Mahmoud Malcolm Essaid. 
